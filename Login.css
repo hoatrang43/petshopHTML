@@ -1,0 +1,93 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato',Sans-Serif;
+	background-image: url("./Images/nen.jpg");
+    background-position: right;
+    background-size: 100%;
+    background-position-y: top;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+[class*="col-"] {
+	float: left;	
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media only screen and (min-width: 992px){
+	.col-1{width: 8.33%;}
+	.col-2{width: 16.66%;}
+	.col-3{width: 25%;}
+	.col-4{width: 33.33%;}
+	.col-5{width: 41.66%;}
+	.col-6{width: 50%;}
+	.col-7{width: 58.33%;}
+	.col-8{width: 66.66%;}
+	.col-9{width: 75%;}
+	.col-10{width: 83.33%;}
+	.col-11{width: 91.66%;}
+	.col-12{width: 100%;}
+}
+
+#container{
+    width: 500px;
+    height: 320px;
+    border: 1px solid #ddd;
+    margin-top: 12%;
+    margin-left: 55%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 10%);
+}
+
+.title{
+    font-size: 22px;
+    line-height: 60px;
+    height: 60px;
+}
+
+.item{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.btn-dangnhap{
+    width: 100%;
+    height: 40px;
+    background-color: #e6283b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.btn-dangnhap:hover{
+    opacity: 1;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.act-login{
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.act-login a:hover{
+    text-decoration: none;
+}

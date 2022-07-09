@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đăng Nhập</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' type='text/css' href ='Login.css' />
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="jquery-3.6.0.min.js" type='text/javascript'></script>
+    </head>
+    <body>
+		<form id="form-login" action="" method="POST" role="form">
+			<div id="container">
+				<div class="col-12 title">Đăng nhập</div>
+				<div class="col-12">
+					<input class="username item" name="name"  id="username" type="text" placeholder="Tên đăng nhập" required></input>
+				</div>
+				<div class="col-12">
+					<input class="pass item" name="pass" id="password" type="password"  placeholder="Mật khẩu" required></input>
+				</div>
+				<div class="col-12">
+					<input type="checkbox" id="check"/>&ensp;<label for="check">Ghi nhớ mật khẩu</label>
+				</div>
+				<div class="col-12" >
+                    <button type="submit" class="btn-dangnhap">ĐĂNG NHẬP</button>
+				</div>
+                <div class="col-12 act-login">
+                    <label class="left"><a href="#">Quên mật khẩu</a></label>
+                    <label class="right"><a href="DangKy.html">Đăng kí</a></label>
+                </div>
+			</div>
+		</form>
+        <script src="./Login.js"></script>
+	</body>
+</html>

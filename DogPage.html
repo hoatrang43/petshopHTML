@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chó cảnh</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' type='text/css' href ='DogPage.css' />
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="jquery-3.6.0.min.js" type='text/javascript'></script>
+        <script>
+			$(document).ready(function(){
+				
+				$('.menu-item').click(function(){
+					$(this).siblings().slideToggle();
+				});
+			});
+		</script>
+    </head>
+    <body>
+        <div id='top-header'>
+            <div class='page-header'>
+                <div id='left-top-header' class="col-6">
+                    <ul>
+                        <li class='text'>Theo dõi chúng tôi tại</li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>   
+                </div>
+                <div id='right-top-header' class="col-6">
+                    <ul>
+                        <li><a href="Acount.html">hoatrang</a></li>
+                        <li><i class="far fa-bell"></i> Thông báo</li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+        <div id='header'>
+            
+
+            <div id='bottom-header'>
+                <div class="page-header">
+                    <div id="logo" class="col-3">
+                        <div class='logo'>
+                            <a href='HomePage.html' title="PetHouse's page"><img src="Images/logo.PNG" /></a>
+                        </div>
+                    </div>
+                    <div id="right-bottom-header" class="col-9">
+                        <div id="top-right">
+                            <div id="search-form" class="col-9">
+                                <div id="search">
+                                    <input class="txt" type="text" placeholder="Tìm kiếm sản phẩm..."></input>					                
+                                    <img src="Images/search.png" />
+                                </div>
+                            </div>
+                            <div id="header-link" class="col-3">
+                                <a href="CartPage.html"><img src="Images/cart.png" /><br />GIỎ HÀNG<label class="cart-amount"> 0</label>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="bottom-right">
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="HomePage.html">TRANG CHỦ</a></li>
+                                    <li><a href="DogPage.html">CHÓ CẢNH</a>
+                                        <ul>
+                                            <div class="col-3">
+                                                <li><a href="New.html"><b>SẢN PHẨM MỚI</b></a></li>
+                                                <li><a href="#" style="color: red;"><b>SALE</b></a></li>
+                                                <li><a href="#"  style="float: left; padding-top: 20%;"><img src="Images/gift.jpg" style="width:100%; height:auto"/></a></li>
+                                            </div>
+                                            <div class="col-9" style="float: left;">
+                                                <li><b>DANH MỤC</b></li>
+                                                
+                                            </div>   
+                                             <div class="col-3" style="float: left;">
+                                                <li><a href="DogPage.html">Xem tất cả</a></li>
+                                                <li><a href="#">Chó Shiba-Inu</a></li>
+                                                <li><a href="#">Chó Phốc Sóc</a></li>
+                                                <li><a href="#">Chó Poodle</a></li>
+                                                <li><a href="#">Chó Alaska</a></li>
+                                                <li><a href="#">Chó Husky</a></li>
+                                                <li><a href="#">Chó Samoyed</a></li>
+                                                <li><a href="CorgiPage.html">Chó Corgi</a></li>
+                                             </div>   
+                                            <div class="col-3" style="float: left;">
+                                                <li></li>
+                                                <li><a href="#">Chó Golden</a></li>
+                                                <li><a href="#">Chó Labrador</a></li>
+                                                <li><a href="#">Chó Pug</a></li>
+                                                <li><a href="#">Chó Bull Anh</a></li>
+                                                <li><a href="#">Chó Bull Pháp</a></li>
+                                                <li><a href="#">Chó Béc Bỉ Malinois</a></li>
+                                                <li><a href="#">Chó Border Collie</a></li>
+                                            </div>
+                                            <div class="col-3" style="float: left;">
+                                                <li><a href="#">Chó Beagle</a></li>
+                                                <li><a href="#">Chó Doberman</a></li>
+                                                <li><a href="#">Chó Rottweiler</a></li>
+                                                <li><a href="#">Chó Phú Quốc</a></li>
+                                                <li><a href="#">Chó Lạp Xưởng</a></li>
+                                            </div>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">MÈO CẢNH</a></li>
+                                    <li><a href="#">SPA & GROOMING</a></li>
+                                    <li><a href="#">PHỤ KIỆN</a></li>
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#" style="color: red;">SALE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div class="item">
+                <ul>
+                    <li class="item-home"><a href="HomePage.html" title="Go to Home page">Trang chủ</a></li>
+                    <li class="item-dog">&ensp;/ Chó cảnh</li>
+                </ul>
+                
+            </div>
+        </div>
+        <div id='main'>
+            <div id="contents">
+                <div class="col-3">
+                    <div class="category-nav">
+                        <p><a href="New.html">SẢN PHẨM MỚI</a></p>
+                        <hr size="1" color="#ddd" width="80%" style="margin: auto;" />
+                        <p><a href="#">SALE</a></p>
+                        
+                    </div>
+                    <div class="category-nav" style="margin-top: 20px;">
+                        <p class="menu-item">DANH MỤC CHÓ CẢNH</p>
+                        <ul>
+                            <li style="padding-top: 10px; color: #09adc0;">Xem tất cả</li>
+                            <li><a href="#">Chó Shiba-Inu</a></li>
+                            <li><a href="#">Chó Phốc Sóc</a></li>
+                            <li><a href="#">Chó Poodle</a></li>
+                            <li><a href="#">Chó Alaska</a></li>
+                            <li><a href="#">Chó Husky</a></li>
+                            <li><a href="#">Chó Samoyed</a></li>
+                            <li><a href="CorgiPage.html">Chó Corgi</a></li>
+                            <li><a href="#">Chó Golden</a></li>
+                            <li><a href="#">Chó Labrador</a></li>
+                            <li><a href="#">Chó Pug</a></li>
+                            <li><a href="#">Chó Bull Anh</a></li>
+                            <li><a href="#">Chó Bull Pháp</a></li>
+                            <li><a href="#">Chó Béc Bỉ Malinois</a></li>
+                            <li><a href="#">Chó Border Collie</a></li>
+                            <li><a href="#">Chó Beagle</a></li>
+                            <li><a href="#">Chó Doberman</a></li>
+                            <li><a href="#">Chó Rottweiler</a></li>
+                            <li><a href="#">Chó Phú Quốc</a></li>
+                            <li><a href="#">Chó Lạp Xưởng</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="category-nav" style="margin-top: 20px;">
+                        <p class="menu-item">DANH MỤC MÈO CẢNH</p>
+                        <ul style="display: none;">
+                            <li style="padding-top: 10px;"><a href="DogPage.html">Xem tất cả</a></li>
+                            <li><a href="#">Chó Shiba-Inu</a></li>
+                            <li><a href="#">Chó Phốc Sóc</a></li>
+                            <li><a href="#">Chó Poodle</a></li>
+                            <li><a href="#">Chó Alaska</a></li>
+                            <li><a href="#">Chó Husky</a></li>
+                            <li><a href="#">Chó Samoyed</a></li>
+                            <li><a href="#">Chó Corgi</a></li>
+                            <li><a href="#">Chó Golden</a></li>
+                            <li><a href="#">Chó Labrador</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="content">
+                        <div class="title-content" style="font-size: 27px; font-weight: bold;">GIỐNG CHÓ CẢNH</div>
+                        <div>
+                            <p>Pet House cung cấp cho những giống chó cảnh Hot nhất hiện nay như: Chó Alaska, Poodle, Phốc Sóc, Husky, Bull Pháp, Corgi, Pug, Samoyed, Labrador, Golden Retriever... 
+                                Tại Pet House, chúng tôi biết rằng chú chó không chỉ là một con vật cưng, 
+                                chúng còn là một thành viên trong gia đình bạn. Đó là lý do tại sao chúng tôi chỉ cung cấp thú cưng uy tín 
+                                chất lượng cao được nuôi dưỡng trong môi trường tốt nhất đem lại những chú chó khỏe mạnh cho bạn.
+                            </p>
+                        </div>
+                        <div id="category-product">
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-shiba-inu-1.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Shiba Inu</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-phoc-soc.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Phốc Sóc</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-poodle.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Poodle</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-alaska-malamute.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Alaska</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-husky.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Husky</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-samoyed-trang-tuyet.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Samoyed</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="CorgiPage.html">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-corgi.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Corgi</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-golden.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Golden</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-labrador.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Labrador</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-pug-mat-xe.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Pug</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-bull-anh.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Bull Anh</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-bulldog-phap.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Bull Pháp</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-bec-bi-malinois.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Béc Bỉ Malinois</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-border-collie-5.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Border Collie</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-beagle.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Beagle</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-doberman.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Doberman</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-rottweiler.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Rottweiler</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-phu-quoc.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Phú Quốc</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-3 col-m-6 col-s-12">
+                                <div class="category-product">
+                                    <a href="#">
+                                        <div class="category-img col-12">
+                                            <img src="Images/dog/cho-lap-xuong-dashunds.jpg" />
+                                        </div>
+                                        <div class="category-name">Chó Lạp Xưởng</div>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='footer'>
+            <div class="col-12">
+                <div class='col-3 col-m-4 col-s-12'>
+                    <div class ='footer-info'>
+                        <div class='footer-item'><b>THÔNG TIN LIÊN HỆ</b></div><br />
+                        <p><i class="fas fa-map-marker-alt"></i>&ensp;Phường Nhân Hòa- Mỹ Hào – Hưng Yên</p>
+                        <p><i class="far fa-envelope"></i>&ensp;pethouse43@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i>&ensp;038 309 2503</p>
+                    </div>
+                </div>
+                <div class='col-3 col-m-4 col-s-12'>
+                    <div class ='footer-info'>
+                        <div class='footer-item'><b>CHĂM SÓC KHÁCH HÀNG</b></div><br />
+                        <p><a href="#">Chăm sóc khách hàng</a></p>
+                        <p><a href="#">Chăm sóc bảo hành</a></p>
+                        <p><a href="#">Vận chuyển</a></p>
+                        <p><a href="#">Trung tâm hỗ trợ</a></p>
+                    </div>
+                </div>
+                <div class='col-3 col-m-4 col-s-12'>
+                    <div class ='footer-info'>
+                        <div class='footer-item'><b>VỀ PET HOUSE</b></div><br />
+                        <p><a href="#">Giới thiệu</a></p>
+                        <p><a href="#">Giống chó cảnh</a></p>
+                        <p><a href="#">Giống mèo cảnh</a></p>
+                        <p><a href="#">Cửa hàng phụ kiện</a></p>
+                        <p><a href="#">Spa & Grooming</a></p>
+                        <p><a href="#">Kiến thức bên lề</a></p>
+                    </div>
+                </div>
+                <div class='col-3 col-m-4 col-s-12'>
+                    <div class ='footer-info'>
+                        <div class='footer-item'><b>THEO DÕI CHÚNG TÔI TẠI</b></div><br />
+                        <p><a href="#"><i class="fab fa-facebook"></i>&ensp;Facebook</a></p>
+                        <p><a href="#"><i class="fab fa-pinterest"></i>&ensp;Pinterest</a></p>
+                        <p><a href="#"><i class="fab fa-instagram"></i>&ensp;Instagram</a></p>
+                        <p><a href="#"><i class="fab fa-youtube-square"></i>&ensp;Youtobe</a></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id='others'>
+            <a href="#">
+                <img src="Images/call.png" />
+                038 309 2503
+            </a>
+			
+		</div>
+        <div id='site-info' class="col-12">
+            Bản quyền thuộc về ... © 2021
+        </div>
+        <script src="./Quantity.js"></script>
+    </body>
+</html>
